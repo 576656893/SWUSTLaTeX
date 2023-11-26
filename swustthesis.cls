@@ -302,11 +302,11 @@
             \vspace{3cm}
 	    \zihao{-3}
 	    \begin{tabular}{cc}
-	      \makebox[4em][s]{学院名称} & \uline{\makebox[16em]{\swust@department}} \\
-	      \makebox[4em][s]{专业名称} & \uline{\makebox[16em]{\swust@major}} \\
-	      \makebox[4em][s]{学生姓名} & \uline{\makebox[16em]{\swust@author}} \\
-	      \makebox[4em][s]{学号}     & \uline{\makebox[16em]{\swust@studentid}} \\
-	      \makebox[4em][s]{指导教师} & \uline{\makebox[16em]{\swust@advisor}} \\
+	      \makebox[4em][s]{学院名称} & \underline{\makebox[16em]{\swust@department}} \\
+	      \makebox[4em][s]{专业名称} & \underline{\makebox[16em]{\swust@major}} \\
+	      \makebox[4em][s]{学生姓名} & \underline{\makebox[16em]{\swust@author}} \\
+	      \makebox[4em][s]{学号}     & \underline{\makebox[16em]{\swust@studentid}} \\
+	      \makebox[4em][s]{指导教师} & \underline{\makebox[16em]{\swust@advisor}} \\
 	    \end{tabular}\\            
 	    \vspace{3cm}
             \swust@date
@@ -397,6 +397,7 @@
 
 \renewcommand{\contentsname}{目\qquad 录}
 
+\RequirePackage{graphicx}
 \RequirePackage{amsmath}
 \RequirePackage{caption}
 \RequirePackage{longtable}
